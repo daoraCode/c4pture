@@ -1,0 +1,601 @@
+/* j'ai défini les marges intérieurs et extérieures du site  /////////////////////////////////////// ------------------------------------------------ */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* ACCUEIL ///////////////////////////////////////////// */
+/* j'ai défini le corps du site  /////////////////////////////////////// ---------------------------- */
+body {
+  background-color:rgba(255, 255, 255, 0.863);
+  font-style: initial;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* <!-- j'ai défini le header - page 1 site  /////////////////////////////////////// --- */
+#cp-header {
+    box-shadow: 
+    0px 2px 4px -1px rgba(0,0,0,0.2), 
+    0px 4px 5px 0px rgba(0,0,0,0.14), 
+    0px 1px 10px 0px rgba(0,0,0,0.12);
+    background: white;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    }
+  .word-logo {
+    margin-left: 38px;
+   } 
+  .cp-logo {
+  margin-left: 76px;
+  width: 91px;
+  }
+  nav {
+    right: 30px;
+  }
+  nav a {
+    margin-right: 40px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+  }
+  .cp-nav a:hover {
+    transition: 1.2s;
+    transform-origin: left;
+    background: #b7b09b;
+  }
+    /* <!-- j'ai défini la partie 1 - page 1 du site  /////////////////////////////////////// ------------------ */
+  #partie-1 {
+      margin: 70px auto;
+      height: 94px;
+      padding-top: 19px;
+      padding-bottom: 32px;
+      background: #000000;
+    }
+  .partie-1-texte {
+      line-height: 55px;
+      padding-left: 24px;
+      padding-right: 24px;
+      font-size: 40px;
+      color: white;
+    }
+
+    /* j'ai défini la partie 2 bis - page 1 du site  */
+#partie-2 {
+  background-color: rgb(154, 149, 173);
+  height: 562px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+.partie-2-1 {
+  width: 600px;
+}
+.partie-2-2 {
+  background-color: rgb(207, 179, 179);
+  padding: 48px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+#partie-2 .partie-2-1 .partie-2-2 h2 {
+ color: rgb(94, 53, 53);
+ font-weight: 400;
+ font-size: 35px;
+ margin-bottom: 25px;
+}
+#partie-2 .partie-2-1 .partie-2-2 p {
+font-size: 24px;
+color: whitesmoke;
+}
+
+/* j'ai défini la partie 2 - page 1 du site  ----------------------------------------------------- */
+#partie-2 {
+  width: 1190x;
+  /* height: 350px; */
+  background-color: rgba(177, 132, 132, 0.468);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.box {
+  border: 2px solid rgba(53, 24, 24, 0.77);
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  background: white;
+  float:left;
+  margin: 0px 10px;
+  transition: .3s;
+}
+.box:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  transform-origin: 60%;
+}
+
+
+  /*  j'ai défini la partie 3 - page 1 du site  ------------------------------------------------------ */
+#partie-3 {
+  background-color: rgba(173, 103, 103, 0.468);
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+#partie-3-1 {
+  width: 600px;
+}
+#partie-3 .partie-3-1 .partie-3-2 {
+  background-color: rgb(71, 56, 56);
+  padding: 25px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+#partie-3 .partie-3-1 .partie-3-2 h2 {
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 20px;
+ }
+ #partie-3 .partie-3-1 .partie-3-2 p {
+font-size: 20px;
+color: whitesmoke;
+}
+
+
+
+
+/* j'ai défini la partie 4 - page 1 du site  ----------------------------------------------------- */
+#partie-4 {
+    width: 1190x;
+    height: 270px;
+    padding: 10px;
+    background-color:rgba(173, 103, 103, 0.468);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+  }
+  .box-2 {
+    border: 2px solid rgba(53, 24, 24, 0.77);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background: white;
+    float:left;
+    margin: 0px 10px;
+    transition: .3s;
+  }
+  .box-2:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+
+
+  /* j'ai défini la partie 5 - page 1 du site */
+ #partie-5 {
+    top: 25px;
+    height: 600px;
+    text-align: center;
+    position: relative;
+  }
+ #partie-5 h1 {
+    position: absolute;
+    font-weight: 100;
+    font-size: 250px;
+    left: 75px;
+    top: 1px;
+    color: #E57474;
+  }
+
+  
+  #partie-5 .partie-5-1 {
+    height: 400px;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+ #partie-5 .partie-5-1 .partie-5-2 {
+    position: absolute;
+    width: 300px;
+    height: 260px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.925);
+    padding: 30px;
+    left: 220px;
+    top: 270px;
+  }
+  #partie-5 .partie-5-1 .partie-5-2 p {
+    padding-top: 33px;
+    text-align: center;
+    justify-content: center;
+    font-size: 18px;
+    color: rgba(109, 3, 9, 0.57);
+  }
+  #partie-5 .sg {
+    position: absolute;
+    width: 484px;
+    height: 350px;
+    top: 78px;
+    right: 90px;
+    border: 8px solid rgb(71, 56, 56);
+  }
+ #partie-5 .link-blk {
+    position: absolute;
+    height: 6px;
+    top: 305px;
+    right: 50px;
+    left: 550px;
+    bottom: 0px;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.281);
+  }
+
+    /* j'ai défini la partie footer - page 1 du site */
+    .cp-footer {
+      height: 60px;
+      background:  rgba(173, 103, 103, 0.468);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 25px 0 50px;
+      margin-top: 70px;
+    }
+    .cp-footer p {
+      color: white;
+    }
+/* ACCUEIL FIN */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* j'ai défini le sous-header site partie 3 */
+    .smallcontainer4 {
+    margin: 70px auto;
+    height: 94px;
+    padding-top: 19px;
+    padding-bottom: 32px;
+    background: #000000;
+  }
+  .smallcontainertxt4 {
+    line-height: 55px;
+    padding-left: 24px;
+    padding-right: 18px;
+    font-size: 42px;
+    color: white;
+  }
+
+
+
+/* PROJET////////////// */
+/* j'ai défini la partie 1 - page 2 du site  */
+#partie-2-01 {
+  margin: 70px auto;
+  height: 94px;
+  padding-top: 19px;
+  padding-bottom: 32px;
+  background: #000000;
+}
+#partie-2-01 .partie-2-02 {
+  line-height: 55px;
+  padding-left: 24px;
+  padding-right: 18px;
+  font-size: 42px;
+  color: white;
+}
+
+.resize {
+width: 550px;
+height: 300px;
+object-fit: cover;
+}
+
+#partie-2-001 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+#partie-2-002 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+
+
+
+
+
+/*  */
+.boxes {
+ display: inline;
+ object-fit: cover;
+}
+
+#container4 {
+  display: flex;
+  justify-content: center;
+}
+
+
+.resizes {
+  display: flex;
+  justify-content: center;
+  border: 8px solid rgba(138, 75, 75, 0.76);
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+
+.artl {
+  justify-content: center;
+  border: 4px solid black;
+  width: 450px;
+  height: 600px;
+}
+
+.artl p {
+  font-size: 34px;
+}
+
+
+/* partie 3 */
+.container5 {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(177, 132, 132, 0.468);
+  width: 110%;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+.sous-container5 {
+  border: 20px solid rgba(165, 146, 146, 0.838)(189, 146, 146);
+  background-color: rgb(0, 0, 0);
+  width: 600px;
+}
+
+.containertxt5 {
+  width: 500px;
+  height: 450px;
+  padding: 25px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.containertxt5 p {
+padding: 25px;
+font-size: 40px;
+color: rgb(76, 61, 61);
+}
+
+
+
+
+#page-3-partie-2-0 {
+  top: 80px;
+  height: 600px;
+  text-align: center;
+  position: relative;
+}
+#page-3-partie-2-0 h1 {
+  position: absolute;
+  font-weight: 100;
+  font-size: 130px;
+  left: 50px;
+  bottom: 80px;
+  color: #E57474;
+  transition: .3s;
+}
+
+#page-3-partie-2-0 h1:hover {
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+  /* transform-origin: 60%; */
+}
+
+
+
+#page-3-partie-2-0 h3 {
+color: #FFFFFF;
+}
+#page-3-partie-2-0 .page-3-partie-2-1 {
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+}
+#page-3-partie-2-0 .page-3-partie-2-1 .page-3-partie-2-2 {
+  position: absolute;
+  width: 300px;
+  height: 245px;
+  background: linear-gradient(0deg, #383838, #383838);
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.863);  
+  padding: 30px;
+  right: 80px;
+  top: 80px;
+}
+#page-3-partie-2-0 .page-3-partie-2-1 .page-3-partie-2-2 p {
+  padding-top: 33px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#page-3-partie-2-0 .th {
+  position: absolute;
+  width: 475px;
+  height: 350px;
+  top: 20px;
+  left: 120px;
+  border: 8px solid rgba(255, 207, 207, 0.747);
+}
+#page-3-partie-2-0 .link-red {
+  position: absolute;
+  height: 12px;
+  top: 288px;
+  right: 50px;
+  left: 552px;
+  bottom: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.281);
+}
+
+/* j'ai défini le responsive partie du site  ----------------------------------------------------- */
+
+
+.changedcontainer {
+  top: 60px;
+  height: 1200px;
+  color: white;
+}
+.changedsmall h1 {
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 100px;
+  left: 50px;
+  bottom: 0;
+  color: #E57474;
+}
+.changedcontainer .changedsmall {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+}
+.changedcontainer .changedsmall2 {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  justify-content: center;
+}
+.changedcontainer .changedsmall .changedtext {
+  width: 300px;
+  height: 260px;
+  padding: 30px;
+  background: rgba(49, 65, 77, 0.877);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.281);
+  filter: blur(0.049rem);
+} 
+.changedcontainer .changedsmall2 .changedtext2 {
+  width: 300px;
+  height: 380px;
+  padding: 30px;
+  background: rgba(41, 192, 134, 0.995);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.281);
+  filter: blur(0.049rem);
+}
+.changedcontainer .changedsmall .changedtext p {
+  padding-top: 33px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.changedcontainer .changedsmall2 .changedtext2 p {
+  padding-top: 33px;
+  text-align: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.changedcontainer .changedsmall .changedtext h3 {
+  color: #FFFFFF;
+  }
+.changedcontainer .changedsmall2 .changedtext2 h3 {
+  color: #FFFFFF;
+}
+.changedcontainer .changedsmall .cc {
+  width: 400px;
+  top: 0;
+  left: 0;
+}
+.changedcontainer .changedsmall .ccp {
+  width: 250px;
+  top: 0px;
+  right: 0px;
+}
+.changedcontainer .wd {
+  align-items: center;
+  width: 300px;
+  left: 0;
+}
+.changedcontainer .mm {
+  width: 240px;
+  height: 269px;
+  bottom: 0;
+  right: 50px;
+}
+.changedcontainer .changedsmall .link-yellow {
+  width: 8px;
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.281);
+}
+.changedcontainer .changedsmall2 .link-white {
+  height: 7px;
+  top: 288px;
+  right: 50px;
+  left: 552px;
+  bottom: 0px;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.281);
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .cplogo {
+    display: block;
+  }
+  nav {
+    background: floralwhite;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    transform: translateX(100%);
+    transition: 0.9s;
+  }
+  .nav-open {
+    transform: translateX(0%);
+  }
+  nav a {
+    display: block;
+    padding: 20px;
+  }
+  
+  #container4 {
+      width: 50%;
+  }
+
+}
